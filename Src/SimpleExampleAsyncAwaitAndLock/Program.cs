@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
+using SimpleExampleAsyncAwaitAndLock.Examples;
 
-namespace SimpleAsyncAwaitProject
+namespace SimpleExampleAsyncAwaitAndLock
 {
     static class Program
     {

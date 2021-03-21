@@ -2,7 +2,7 @@ using System;
 using System.Reflection;
 using System.Threading;
 
-namespace SimpleAsyncAwaitProject
+namespace SimpleExampleAsyncAwaitAndLock.Examples
 {
     public class SyncCoffeeMachine
     {

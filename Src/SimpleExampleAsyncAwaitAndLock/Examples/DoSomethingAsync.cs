@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace SimpleAsyncAwaitProject
+namespace SimpleExampleAsyncAwaitAndLock.Examples
 {
     public static class DoSomething
     {

@@ -1,9 +1,8 @@
 using System;
 using System.Reflection;
-using System.Threading;
 using System.Threading.Tasks;
 
-namespace SimpleAsyncAwaitProject
+namespace SimpleExampleAsyncAwaitAndLock.Examples
 {
     public class AsyncCoffeeMachine
     {
