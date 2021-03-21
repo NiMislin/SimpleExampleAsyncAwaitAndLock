@@ -28,7 +28,7 @@ namespace SimpleAsyncAwaitProject
         public static async Task LaunchTwoDifferedMethodAndFailedAsync()
         {
             Console.Write(Environment.NewLine);
-            Console.WriteLine($"{DateTime.Now} - {nameof(LaunchTwoDifferedMethodAndFailedWithWhenAllAsync)}");
+            Console.WriteLine($"{DateTime.Now} - {nameof(LaunchTwoDifferedMethodAndFailedAsync)}");
             var task1 = DoSomethingAndFailedAsync(1);
             var task2 = DoSomethingAndFailedAsync(2);
             ShowTaskStatus(task1);
@@ -47,7 +47,7 @@ namespace SimpleAsyncAwaitProject
 
             ShowTaskStatus(task1);
             ShowTaskStatus(task2);
-            Console.WriteLine($"{DateTime.Now} - {nameof(LaunchTwoDifferedMethodAndFailedWithWhenAllAsync)}");
+            Console.WriteLine($"{DateTime.Now} - {nameof(LaunchTwoDifferedMethodAndFailedAsync)}");
         }
 
         public static async Task LaunchTwoDifferedMethodAndFailedWithWhenAllAsync()

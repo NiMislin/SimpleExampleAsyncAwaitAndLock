@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace SimpleAsyncAwaitProject
@@ -19,7 +20,7 @@ namespace SimpleAsyncAwaitProject
                 resultWithoutLock.Add(await Play(UpdateSharedResource));
             }
 
-            if (resultWithoutLock.TrueForAll(r => r != 1600))
+            if (resultWithoutLock.Any(r => r != 1600))
             {
                 Console.WriteLine($"Results of 10 executions : {string.Join(", ", resultWithoutLock)}");
                 Console.WriteLine("Without lock, the results aren't equal to 1600");
